@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local configuration and caches
+.env
+.env.*
+!.env.example
+.cache/
+
+# Download model weights locally; never commit them
+models/
+*.safetensors
+*.gguf
+*.onnx
+*.tflite
